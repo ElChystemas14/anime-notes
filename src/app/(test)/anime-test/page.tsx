@@ -1,7 +1,7 @@
 import { getAnimeById } from "@/lib/anilist";
 
 export default async function AnimeTestPage() {
-  const anime = await getAnimeById(3);
+  const anime = await getAnimeById(4);
   
   return (
     <div className="max-w-md mx-auto bg-card rounded-xl p-4 mt-6">
